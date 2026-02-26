@@ -48,9 +48,11 @@ make -j$(nproc) \
     HOSTLD=ld
 cd ..
 
+
 # 手动进行“安装”
 mkdir -p busybox-1.37.0-ohos-arm64/bin
 cp busybox-1.37.0/busybox busybox-1.37.0-ohos-arm64/bin/
+
 
 # 履行开源义务，将 license 随制品一起发布
 cp busybox-1.37.0/LICENSE busybox-1.37.0-ohos-arm64/
