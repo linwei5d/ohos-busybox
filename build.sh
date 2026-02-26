@@ -13,7 +13,7 @@ rm -rf *.tar.gz \
 
 # 准备 ohos-sdk
 mkdir ohos-sdk
-curl -L -O https://repo.huaweicloud.com/openharmony/os/6.0-Release/ohos-sdk-windows_linux-public.tar.gz
+curl -L -O https://repo.huaweicloud.com/openharmony/os/5.1.0-Release/ohos-sdk-windows_linux-public.tar.gz
 tar -zxf ohos-sdk-windows_linux-public.tar.gz -C ohos-sdk
 cd ohos-sdk/linux
 unzip -q native-*.zip
