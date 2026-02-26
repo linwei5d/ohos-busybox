@@ -15,9 +15,9 @@ rm -rf *.tar.gz \
 mkdir ohos-sdk
 curl -L -O https://repo.huaweicloud.com/openharmony/os/5.1.0-Release/ohos-sdk-windows_linux-public.tar.gz
 tar -zxf ohos-sdk-windows_linux-public.tar.gz -C ohos-sdk
-cd ohos-sdk/linux
-unzip -q native-*.zip
-cd ../..
+# cd ohos-sdk/linux
+# unzip -q native-*.zip
+# cd ../..
 
 # 准备源码
 curl -L -O https://busybox.net/downloads/busybox-1.37.0.tar.bz2
